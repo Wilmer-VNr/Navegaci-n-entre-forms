@@ -19,7 +19,7 @@ public class form1 {
 
                 if (user.equals("esfot") && pass.equals("1234")) {
                     JFrame frame = new JFrame();
-                    frame.setContentPane(new form3().mainPanel);
+                    frame.setContentPane(new form2().mainPanel);
                     frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
                     frame.setSize(500, 400);
                     frame.setLocationRelativeTo(null);
